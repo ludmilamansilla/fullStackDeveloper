@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+
+body {
+    font-family: var(--font-roboto);
+    background-color: var(--light-grey);
+}
+
+li{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    padding: 5px 0;
+}

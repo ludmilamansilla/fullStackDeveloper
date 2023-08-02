@@ -1,0 +1,37 @@
+footer{
+    padding-top:40px;
+    background-color: white
+}
+
+footer article{
+    margin-bottom: 20px;
+}
+
+footer .article{
+    text-align: center;
+    
+}
+
+footer .article h5{
+    font-size: 16px;
+    
+}
+
+footer .article i{
+    color: var(--light_blue);
+    background-color: white;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+footer .article p{
+    font-size:var(--paragraph);
+    width: 77% ;
+    margin: 0 auto;
+}
+
+footer .copy{
+    font-size: var(--paragraph);
+    color: var(--dark-grey);
+    margin:0 0 10px 15px;
+}

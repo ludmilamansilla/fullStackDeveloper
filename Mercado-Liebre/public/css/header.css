@@ -1,0 +1,69 @@
+body .header{
+    background-color:#EAC926;
+    padding: 20px;
+}
+
+body .header .header-top-bar{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body .header .header-top-bar .container-search{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+body .header .header-top-bar .container-search .search-bar{
+    display: flex;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body .header .header-top-bar .container-search .search-bar input{
+    height: 30px;
+    width: 100%;
+    border: 0px solid yellow;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: var(darkgray);
+    font-size: 15px;
+}
+
+body .header .header-top-bar .container-search .search-bar button{
+    position: relative;
+    right: 15px;
+    border-radius: 5px;
+    background-color: white;
+    color:var(darkgray);
+    border-style: none;
+}
+
+.header .burguer-menu{
+    display: block;
+    background-color: #03264C;
+    color: white;
+    max-width: 40px;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+}
+
+.header .logo{
+    width: 50%;
+}
+
+.header .compra{
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    padding: 25px 0px
+}
+
+.header .nav-bot-bar{
+    display: none;
+}

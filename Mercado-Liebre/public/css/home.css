@@ -1,0 +1,273 @@
+.home .banner{
+    display:block;
+}
+
+
+main.home {
+    margin: 0 auto;
+    width:90%;
+}
+
+
+.home .section-tittle {
+    margin: 25px 0;
+}
+
+.home .card{
+    background-color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.home .card .card-content{
+    border-top:1px solid var(--light-grey);
+    padding: 15px;
+}
+
+.home .card .card-content .product-info{
+    display:flex;
+    justify-content:start;
+    padding-top: 5px;
+    align-items: center;
+
+}
+
+.home .card .card-content .product-info .precios{
+    width: 30%;
+}
+
+
+.home .card .card-content .product-info .descuentos{
+    color:rgb(3, 155, 3);
+    width: 70%;
+    font-size: 14px;
+}
+
+
+.home .card .card-content{
+    position:relative;
+}
+
+.home .card .card-content .icon-truck{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    bottom: 70px;
+    text-align: center;
+
+}
+
+.home .card .card-content .icon-truck i{
+    position: relative;  
+    color:#39b54a ;
+}
+
+
+.card-content .descripcionH5 .descripciones{
+    color: var(--dark-grey);
+    padding: 15px 10px 0 0;
+    display:none;
+
+}
+
+
+@media (min-width: 768px){
+
+    body .header{
+        padding:10px;
+    }
+
+    body .header .header-top-bar{
+        display: flex;
+        justify-content: space-between;
+        gap: 0px;
+        padding: 10px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .header .logo{
+        width: 33%;
+    }
+
+    .header .compra{
+        max-width: 300px;
+        text-align: right;
+    }
+
+    .header .burguer-menu{
+        display: none;
+    }
+
+    body .header .nav-bot-bar{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10px 0px 0px;
+    }
+
+    .header .nav-bot-bar ul{
+        display: flex;
+    }
+
+    .header .nav-bot-bar li{
+        margin: 0 5px;
+    }
+
+    body .header .header-top-bar .container-search{
+        display: flex;
+        align-items: center;
+        width: 33%;
+        justify-content: center;
+    }
+
+    .header .header-top-bar .container-search .search-bar{
+        display: flex;
+        width: 20%;
+        padding-left: 60px;
+        padding-right: 0px;
+    }
+
+    .header .header-top-bar .container-search .search-bar input{
+        width: 250px;
+    }
+
+    body main.home h3.section-tittle{
+        width: 100%;
+    }
+
+    body main.home section.productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    body main.home section.productos article.card{
+        width: 45%;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+   
+    body main.home section.productos article.card:hover .card-content .descripcionH5 h5.descripciones{
+        transition: 0.5s;
+        opacity: 100;
+    }
+
+    body main.home section.productos article.card:hover{
+        box-shadow:0px 0px 10px rgb(100, 100, 100);
+        transition: linear 0.2s
+        
+    }
+
+    body main.home .card .card-content .icon-truck i:hover {
+        animation: girando 0.7s 1 ;
+        animation-fill-mode: forwards;
+
+    }
+
+    @keyframes girando{
+        0% {
+            transform: rotate(0.0turn)
+        }
+        50%{
+            transform: rotate()
+        }
+        
+        100% {
+            transform: rotate(-90deg)
+            
+            
+        }
+    }
+
+    
+    body main.home section.productos article.card .card-content .descripcionH5 h5.descripciones{
+        display:block;
+        font-weight: 400;
+        font-size: 16px;
+        opacity: 0;
+    }
+    
+
+
+    body footer.footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    body footer.footer .article{
+        width: 30%;
+        width: 33%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    body footer.footer .article p{
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    body footer.footer .article i:hover{
+        color: #caaf28;
+        transform: scale(1.5);
+        transition: 0.5s;
+    }
+}
+
+@media(min-width: 1200px){
+
+    .header .logo{
+        width: 250px;
+    }
+
+    .header .header-top-bar, .nav-bot-bar{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .header .header-top-bar{
+        align-items: center;
+    }
+
+    .header .compra{
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+
+    }
+
+    .header .nav-bot-bar{
+        margin-top: 40px;
+    }
+
+    .header .nav-bot-bar li{
+        margin: 0 10px;
+    }
+
+    .header .nav-bot-bar a{
+        font-size: 19px;
+    }
+    
+    body main.home section.productos article.card{
+        width: 22%;
+    }
+    
+    body main.home .card .card-content .product-info .descuentos{
+        width: 60%;
+    }
+
+    body main.home .card .card-content .product-info .precios{
+        width: 40%;
+    }
+
+   
+}

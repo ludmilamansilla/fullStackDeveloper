@@ -1,0 +1,162 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h3{
+    padding: 1rem 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+span.error-message {
+    color: red;
+    font-size: 10px;
+    margin: 5px auto;
+    display: none;
+}
+
+input.input-style{
+    outline: none;
+    border-style: none;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.form-container {
+    background-color: white;
+    margin: 0 auto;
+    height: fit-content;
+    height: -moz-fit-content;
+    width: 100%;
+    padding: 1rem;
+}
+
+.form-container form{
+    background-color: var(--light-grey);
+    border-radius: 5px;
+    padding: 20px 0;
+    margin-top: 20px;
+    
+}
+
+.form-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.form-container form .form .button-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.form-container form .form .button-container button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-style: none;
+    background-color: var(--light_blue);
+    border-radius: 5px;
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.form-container form .form .button-container button a{
+    color: white;
+}
+
+.form-container form .form .input-radio{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.form-container form .form .input-radio .option{
+    margin-top: 15px;
+    display: flex;
+}
+
+.form-container form .form .input-radio .option label{
+    margin-right: 50px;
+}
+
+.form-container form .form .input-radio .option label input{
+    margin-left: 10px;
+}
+
+
+.form-container form .form .input-container{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    width: 100%;
+}
+
+.form-container form .form .input-checkbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form .form .input-checkbox label{
+    margin-bottom: 20px; 
+    margin-left: 10px;
+}
+
+.form-container form .form .input-checkbox label input{
+    margin-right: 20px;
+}
+
+.container-file{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0 20px;
+}
+
+.custom-input-file {
+    background-color: var(--light_blue);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    
+  }
+  
+  .custom-input-file .input-file {
+   cursor: pointer;
+   opacity: 0;
+   outline:none;
+   position: absolute;
+  }
+
+@media (min-width: 768px){
+    .form-container form{
+        max-width: 700px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+
+

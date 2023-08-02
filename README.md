@@ -7,5 +7,6 @@ Curso realizado gracias a fundación FORMAR y Digital House
 
 ## Certificaciones:
 
-[![Ludmila-Mansilla-1.png](https://i.postimg.cc/gkb633By/Ludmila-Mansilla-1.png)](https://postimg.cc/kDw4mRCD)
-[![Diploma-participacion-Ludmila-Mansilla-1.png](https://i.postimg.cc/J0VtcWK7/Diploma-participacion-Ludmila-Mansilla-1.png)](https://postimg.cc/vghQbkpC)
+[![Ludmila-Mansilla.png](https://i.postimg.cc/gkb633By/Ludmila-Mansilla-1.png)](https://postimg.cc/kDw4mRCD)
+
+[![Diploma-participacion](https://i.postimg.cc/J0VtcWK7/Diploma-participacion-Ludmila-Mansilla-1.png)](https://postimg.cc/vghQbkpC)
